@@ -1,4 +1,4 @@
-# Modern JavaScript Bootcamp
+# Modern JavaScript Bootcamp v2
 Practice from Udemy Course
 
 JavaScript Basics: Variables & Flow Control
@@ -35,4 +35,4 @@ JavaScript Arrays
   - Arrays 101
   - Array Methods (Manipulation)
   
-# Modern-JavaScript-v2
+
