@@ -34,5 +34,10 @@ JavaScript Objects
 JavaScript Arrays
   - Arrays 101
   - Array Methods (Manipulation)
+  - Looping Over Arrays using forEach() method
+  - The For() Statement Loop
+  - Search Array Methods - Part 1 using findIndex() method
+  - Search Array Methods - Part 2 using find() method
+
   
 
