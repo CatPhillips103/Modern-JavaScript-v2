@@ -25,11 +25,8 @@ console.log(notes)
 
 // first you would need to declare a counter variable known as the initialiser 
 // the counter variable is locally scoped
-
-
 // then the second expression is a condition evaluating loop iteration which if true, the condition will execute the code
 // however if false then the condition will stop executing code
-
 // then third expression can either increment or decrement the counter upon the condition evaluating as true
 
 
