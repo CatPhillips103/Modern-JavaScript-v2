@@ -40,6 +40,7 @@ const filteredNotes = notes.filter(function (note, index) {
 // psuedocode: this example uses the same methods as the previous, however rather than hard 
 // code characters to find any matches when filtering, the argument query is passed down within
 // the filter callback method to find any characters matching to array values 
+// the function returns: [ { title: 'Habits to work on', body: 'Exercise' } ] 
 
 const findNotes = function (notes, query) {
    const filteredNotes = notes.filter(function (note, index) {

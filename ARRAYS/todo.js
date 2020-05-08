@@ -74,14 +74,30 @@ const todos = [{
    completed: false
 }]
 
-const deleteTodo = function (todos, todoText) {
-   const index = todos.findIndex(function (todo) {
-      return todo.text.toLowerCase() === todoText.toLowerCase()
+// const deleteTodo = function (todos, todoText) {
+//    const index = todos.findIndex(function (todo) {
+//       return todo.text.toLowerCase() === todoText.toLowerCase()
+//    })
+//    if (index > -1) {
+//       todos.splice(index, 1)
+//    }
+// }
+
+// deleteTodo(todos, 'cream skin')
+// console.log(todos)
+
+
+// CHALLENGE TWENTY-ONE
+
+// using filter return the todos that are to be completed
+
+const getThingsToDo = function (todos) {
+   const toBeCompleted = todos.filter(function (stillToDo) {
+      return stillToDo.completed === false
    })
-   if (index > -1) {
-      todos.splice(index, 1)
-   }
+   return toBeCompleted
 }
 
-deleteTodo(todos, 'cream skin')
-console.log(todos)
+
+
+console.log(getThingsToDo(todos))
